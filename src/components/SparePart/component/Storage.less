@@ -1,0 +1,736 @@
+.CenterContent {
+  float: left;
+
+  width: 975px;
+  height: 545px;
+  margin: 5px 5px 5px 0;
+  background: #E3EAF4;
+
+  :global {
+
+    // input
+    .ant-input {
+      // width: 100px;
+      line-height: 16px;
+      border-radius: initial;
+      padding: 0 10px;
+      background: none;
+
+      &:hover {
+        border-color: #00499d !important;
+        border-right-width: 1px !important
+      }
+
+      &:focus {
+        background: none;
+        border: 1px solid #00499d !important;
+        box-shadow: 2px solid #0076ff !important;
+      }
+    }
+
+    // Btn
+    .ant-btn {
+      border-radius: initial;
+      padding: '0 15px';
+      background: '#2884d8';
+      color: '#ffffff';
+      font-size: 14px
+    }
+
+    .ant-btn:hover {
+      color: '#ffffff';
+      font-size: 14px;
+      background: #3d90db;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    .ant-btn:focus {
+      color: #1C6FBC;
+      background: #2376c1;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    .ant-btn-primary {
+      border-radius: initial;
+      padding: '0 15px';
+      background: '#2884d8';
+      color: '#ffffff';
+      font-size: 14px
+    }
+
+    .ant-btn-primary:hover {
+      color: '#ffffff';
+      font-size: 14px;
+      background: #3d90db;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    .ant-btn-primary:focus {
+      color: #FFFFFF;
+      background: #2376c1;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    // radio
+    .ant-radio-inner {
+      width: 13px;
+      height: 13px;
+      background: none;
+      font-family: 'Arial', '微软雅黑';
+      color: #666666;
+      font-size: 12px;
+
+      &:after {
+        height: 5px;
+        width: 5px;
+      }
+    }
+
+    .ant-radio {
+      border-color: #CFCFCF;
+    }
+
+    .ant-radio-checked .ant-radio-inner {
+      border-color: #1F95FF;
+    }
+
+    .ant-radio-wrapper {
+      font-family: 'Arial', '微软雅黑';
+      color: #666666;
+      font-size: 12px;
+    }
+
+    // select
+    .ant-select-selection {
+      border-radius: initial
+    }
+
+    .ant-select-selection--single {
+      border-radius: initial;
+    }
+
+    .ant-select-dropdown-menu-item:hover {
+      background-color: #E6EDF5;
+      // font-size: 12px
+    }
+  }
+}
+
+.CenterContentTitle {
+  width: 100%;
+  height: 30px;
+  background: #D0DAE5;
+  font-size: 14px;
+  color: #666666;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.contentPN {
+  float: left;
+  width: 25%;
+}
+
+.contentPN_warning_input {
+  float: left;
+  width: 70%;
+}
+
+.contentPN_warning_button {
+  float: left;
+  width: 29%;
+}
+
+.contentPN_pnmanagement_input {
+  float: left;
+  width: 55%;
+}
+
+.contentPN_pnmanagement_button {
+  float: left;
+  width: 45%;
+}
+
+.contentSN {
+  float: left;
+  width: 33%;
+}
+
+.contentAuto {
+  float: left;
+  width: 17%;
+}
+
+.InputStyle {
+  float: right;
+  height: 32px;
+  margin: 10px 0px 0 20px;
+}
+
+.TextAreaContent {
+  float: left;
+  width: 90%;
+  text-align: right;
+}
+
+.TextAreaStyle {
+  float: right;
+  width: 100%;
+  margin: 10px 0px 0 20px;
+}
+
+.TextArea_note_Content {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin: 10px 0 0 0;
+}
+
+.TextArea_note_Style {
+  float: left;
+  width: 90%;
+  text-align: right;
+}
+
+.contentPeople {
+  float: left;
+  width: 25%;
+}
+
+.layoutContent {
+  float: left;
+  width: 100%;
+
+  :global {
+    .ant-select-selection {
+      border-radius: initial
+    }
+
+    .ant-select-selection--single {
+      // width: 100px;
+      border-radius: initial;
+    }
+
+    .ant-select-selection-selected-value {
+      font-size: 12px
+    }
+
+    .ant-select-dropdown-menu-item:hover {
+      background-color: #E6EDF5;
+      font-size: 12px
+    }
+  }
+}
+
+.contentPosition {
+  float: left;
+  width: 42.6%;
+}
+
+// 表格
+.bodyCss {
+  width: 86%;
+  float: right;
+}
+
+.bodyCss_query {
+  width: 100%;
+  float: left;
+  padding: 0 10px
+}
+
+.bodyCss_PN {
+  width: 100%;
+  float: right;
+  padding: 0 10px
+}
+
+.tableContent {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin: 10px 0 0 0;
+}
+
+.tableContent_delivery {
+  float: left;
+  width: 100%;
+  text-align: right;
+}
+
+.tableStyle {
+  float: left;
+  width: 100%;
+  text-align: right;
+}
+
+.mynoiseClass {
+  :global {
+
+    // 滚动条 
+    ::-webkit-scrollbar {
+      //滚动条整体部分
+      //滚动条宽高
+      height: 5px; //水平滚动条
+      width: 5px; //垂直滚动条
+      background: none;
+    }
+
+    .ant-table-fixed-header>.ant-table-content>.ant-table-scroll>.ant-table-body {
+      background: none
+    }
+
+
+    .ant-table-small>.ant-table-content .ant-table-header {
+      background: none
+    }
+
+    ::-webkit-scrollbar-thumb {
+      //滚动条里面的小滑块,能上下左右移动(取决于是垂直滚动条还是水平滚动条）
+      background: #D5D5D5;
+    }
+
+    // 表格
+    //无数据时的表格
+    .ant-empty-normal {
+      margin: 0;
+    }
+
+    .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+      margin-bottom: -5px !important;
+      padding-bottom: 0 !important;
+    }
+
+    .ant-table-content>.ant-table-scroll>.ant-table-header>table>.ant-table-thead>tr>th {
+      // background: #D0DAE5; //停靠区标题颜色
+      background: #EDF2F8;
+      padding: 7px 10px;
+      height: 30px;
+      white-space: pre; //识别\n 换行
+    }
+
+    .ant-table-bordered,
+    .ant-table-fixed-header,
+    .ant-table-placeholder {
+      height: 100%;
+      width: 100%;
+    }
+
+    .ant-table-thead>tr>th {
+      height: 30px;
+      line-height: 16px;
+      padding: 7px 10px;
+      font-family: 'Arial', '微软雅黑';
+      // font-size: 12px;
+      text-align: center;
+      color: #666666;
+    }
+
+    .ant-table-tbody>tr>td {
+      border-bottom: 1px solid #D2D2D2;
+      line-height: 16px;
+      height: 30px;
+      padding: 7px 10px;
+      font-family: 'Arial', '微软雅黑';
+      // font-size: 12px;
+      text-align: center;
+      color: #666666;
+    }
+
+    .ant-table-tbody>tr>th {
+      background: #EDF2F8;
+    }
+
+    .ant-table-thead>tr:first-child>th:first-child {
+      background: #EDF2F8;
+    }
+
+    .ant-table-thead>tr:not(first-child)>th:not(first-child) {
+      background: #EDF2F8;
+    }
+
+
+    .ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+      background: #EAF7FF;
+    }
+
+  }
+}
+
+.mynoiseClassQuery {
+  :global {
+
+    // 滚动条 
+    ::-webkit-scrollbar {
+      //滚动条宽高
+      height: 5px; //水平滚动条
+      width: 5px; //垂直滚动条
+      background: none;
+    }
+
+    .ant-table-fixed-header>.ant-table-content>.ant-table-scroll>.ant-table-body {
+      background: none
+    }
+
+    .ant-table-small>.ant-table-content .ant-table-header {
+      background: none
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #D5D5D5;
+    }
+
+    .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+      margin-bottom: -5px !important;
+      padding-bottom: 0 !important;
+    }
+
+    .ant-table-content>.ant-table-scroll>.ant-table-header>table>.ant-table-thead>tr>th {
+      background: #EDF2F8;
+      padding: 7px 10px;
+      height: 30px;
+      white-space: pre; //识别\n 换行
+    }
+
+    .ant-table-bordered,
+    .ant-table-fixed-header,
+    .ant-table-placeholder {
+      height: 100%;
+      width: 100%;
+    }
+
+    //无数据时的表格
+    .ant-empty-normal {
+      margin: 0;
+    }
+
+    .ant-table-thead>tr>th {
+      height: 30px;
+      line-height: 16px;
+      padding: 7px 10px;
+      font-family: 'Arial', '微软雅黑';
+      // font-size: 12px;
+      text-align: center;
+      color: #666666;
+    }
+
+    .ant-table-tbody>tr>td {
+      border-bottom: 1px solid #D2D2D2;
+      line-height: 16px;
+      height: 30px;
+      padding: 7px 10px;
+      font-family: 'Arial', '微软雅黑';
+      // font-size: 12px;
+      text-align: center;
+      color: #666666;
+    }
+
+    .ant-table-tbody>tr>th {
+      background: #EDF2F8;
+    }
+
+    .ant-table-thead>tr:first-child>th:first-child {
+      background: #EDF2F8;
+    }
+
+    .ant-table-thead>tr:not(first-child)>th:not(first-child) {
+      background: #EDF2F8;
+    }
+
+
+    .ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+      background: #EAF7FF;
+    }
+
+    .ant-table-pagination.ant-pagination {
+      float: initial;
+      text-align: center;
+      margin: 10px 0 0 0
+    }
+  }
+}
+
+.queryButton {
+  float: right;
+  position: absolute;
+  left: 740px;
+  top: 420px;
+}
+
+.period_Button {
+  float: right;
+  position: absolute;
+  left: 18px;
+  top: 650px;
+}
+
+.odd {
+  :global {
+    background: #ffffff 100%;
+  }
+}
+
+.even {
+  :global {
+    background: #F0F3F9 100%;
+  }
+}
+
+.Datepicker {
+  display: inline-block;
+  width: 50%;
+
+  :global {
+    .ant-calendar {
+      width: 100%
+    }
+  }
+}
+
+.SupplementaryDatepicker {
+  float: left;
+  text-align: right;
+  width: 40%;
+
+  :global {
+    .ant-calendar {
+      width: 100%
+    }
+
+    .ant-calendar-picker-input.ant-input {
+      width: 278px
+    }
+  }
+}
+
+.SupplementarySelect {
+  float: left;
+  text-align: right;
+  width: 30%;
+}
+
+.WarningDatepicker {
+  float: left;
+  text-align: right;
+  width: 41%;
+
+  :global {
+    .ant-calendar {
+      width: 100%
+    }
+
+    .ant-calendar-picker-input.ant-input {
+      width: 228px
+    }
+  }
+}
+
+.QBButton {
+  float: right;
+
+}
+
+.WarningrySelect_PN {
+  float: left;
+  // text-align: right;
+  width: 32%;
+
+  :gloabal {
+    .ant-form-item {
+      //当那个表单项下边距距离
+      margin-bottom: 0px,
+    }
+
+    .ant-form-item-label {
+      line-height: 30px
+    }
+  }
+}
+
+.WarningrySelect_PC {
+  float: left;
+  text-align: right;
+  width: 50%;
+}
+
+.WarningSelect_Open {
+  float: left;
+  text-align: right;
+  width: 27%;
+}
+
+.pruductInput {
+  float: left;
+  text-align: right;
+  width: 50%;
+}
+
+.pruduct_Select {
+  float: left;
+  text-align: right;
+  width: 25%;
+}
+
+.PN_Input {
+  float: left;
+  text-align: right;
+  width: 50%;
+  padding: 10px;
+}
+
+.Individual_Input {
+  float: left;
+  text-align: right;
+  width: 45%;
+  padding: 10px;
+}
+
+//表单
+.myBandForm {
+  :global {
+
+    // Btn
+    // Btn
+    .ant-btn {
+      border-radius: initial;
+      padding: '0 15px';
+      background: '#2884d8';
+      color: '#ffffff';
+      font-size: 14px
+    }
+
+    .ant-btn:hover {
+      color: '#ffffff';
+      font-size: 14px;
+      background: #3d90db;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    .ant-btn:focus {
+      color: #1C6FBC;
+      background: #2376c1;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    .ant-btn-primary {
+      border-radius: initial;
+      padding: '0 15px';
+      background: '#2884d8';
+      color: '#ffffff';
+      font-size: 14px
+    }
+
+    .ant-btn-primary:hover {
+      color: '#ffffff';
+      font-size: 14px;
+      background: #3d90db;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    .ant-btn-primary:focus {
+      color: #FFFFFF;
+      background: #2376c1;
+      color: '#ffffff';
+      font-size: 14px;
+    }
+
+    // radio
+    .ant-radio-inner {
+      width: 13px;
+      height: 13px;
+      background: none;
+      font-family: 'Arial', '微软雅黑';
+      color: #666666;
+      font-size: 12px;
+
+      &:after {
+        height: 5px;
+        width: 5px;
+      }
+    }
+
+    .ant-radio {
+      border-color: #CFCFCF;
+    }
+
+    .ant-radio-checked .ant-radio-inner {
+      border-color: #1F95FF;
+    }
+
+    .ant-radio-wrapper {
+      font-family: 'Arial', '微软雅黑';
+      color: #666666;
+      font-size: 12px;
+    }
+
+    // input
+    .ant-input {
+      line-height: 16px;
+      border-radius: initial;
+      padding: 0 10px;
+      background: none;
+
+      &:hover {
+        border-color: #00499d;
+        border-right-width: 1px
+      }
+
+      &:focus {
+        background: none;
+        border: 1px solid #00499d;
+        box-shadow: 2px solid #0076ff;
+      }
+    }
+
+    // 表单
+    // .ant-row .ant-form-item {
+    //   margin-right: 0;
+    // }
+
+    .ant-form-item-label {
+      float: left;
+      line-height: 30px
+    }
+
+
+    .ant-form-item-label label {
+      font-size: 14px;
+      color: #666666;
+      line-height: 30px;
+
+      //表单字符与输入框边距
+      &:after {
+        margin: 0 5px 0 0px;
+      }
+    }
+
+    .ant-form label {
+      font-size: 14px
+    }
+
+    .ant-form-item-label {
+      line-height: 30px
+    }
+
+    .ant-row {
+      //当那个表单项下边距距离
+      // float: right;
+      margin-bottom: 0px;
+    }
+
+    .ant-form-item-control {
+      line-height: 30px;
+    }
+
+    .ant-radio-wrapper {
+      margin-right: 0px
+    }
+  }
+}

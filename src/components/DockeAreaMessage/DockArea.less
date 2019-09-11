@@ -1,0 +1,131 @@
+//表格
+.mynoiseClass {
+  :global {
+
+    // 滚动条 
+    ::-webkit-scrollbar {
+      //滚动条整体部分
+      //滚动条宽高
+      height: 5px; //水平滚动条
+      width: 5px; //垂直滚动条
+      background: none;
+    }
+
+    .ant-table-fixed-header>.ant-table-content>.ant-table-scroll>.ant-table-body {
+      background: none
+    }
+
+    .ant-table-small>.ant-table-content .ant-table-header {
+      background: none
+    }
+
+    ::-webkit-scrollbar-thumb {
+      //滚动条里面的小滑块,能上下左右移动(取决于是垂直滚动条还是水平滚动条）
+      background: #D5D5D5;
+    }
+
+    // 表格
+    .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+      margin-bottom: -5px !important;
+      padding-bottom: 0 !important;
+    }
+
+    .ant-table-content>.ant-table-scroll>.ant-table-header>table>.ant-table-thead>tr>th {
+      // background: #D0DAE5; //停靠区标题颜色
+      background: #EDF2F8;
+      padding: 7px 10px;
+      height:30px;
+      white-space: pre; //识别\n 换行
+    }
+
+    .ant-table-bordered,
+    .ant-table-fixed-header,
+    .ant-table-placeholder {
+      height: 100%;
+      width: 100%;
+    }
+
+    .ant-table-thead>tr>th {
+      height: 30px;
+      line-height: 16px;
+      padding: 7px 10px;
+      font-family: 'Arial', '微软雅黑';
+      font-size: 12px;
+      text-align: center;
+      color: #666666;
+    }
+
+    .ant-table-tbody>tr>td {
+      border-bottom: 1px solid #D2D2D2;
+      line-height: 16px;
+      height: 30px;
+      padding: 7px 10px;
+      font-family: 'Arial', '微软雅黑';
+      font-size: 12px;
+      text-align: center;
+      color: #666666;
+    }
+
+    .ant-table-tbody>tr>th {
+      background: #EDF2F8;
+    }
+
+    .ant-table-thead>tr:first-child>th:first-child {
+      background: #EDF2F8;
+    }
+
+    .ant-table-thead>tr:not(first-child)>th:not(first-child) {
+      background: #EDF2F8;
+    }
+
+
+    .ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+      background: #EAF7FF;
+    }
+
+  }
+}
+
+.odd {
+  :global {
+    background: #ffffff 100%;
+  }
+}
+
+.even {
+  :global {
+    background: #F0F3F9 100%;
+  }
+}
+
+.bodyCss {
+  min-width: 500px;
+  // background: #E3EAF4;//停靠区背景色
+  bottom: 30px;
+  max-width: 1280px;
+}
+
+
+.jam_content_left {
+  float: left;
+  width: 950px;
+  height: 207px;
+  background: #E3EAF4;
+}
+
+.jam_content_right {
+  float: left;
+  width: 143.25px;
+  height: 188px;
+  padding: 10px 0;
+  background: #E3EAF4;
+}
+
+.jam_content_right_top {
+  margin: 10px 0;
+}
+
+
+.jam_content_right_bottomOne {
+  margin: 10px 0;
+}
